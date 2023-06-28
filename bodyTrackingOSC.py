@@ -1,4 +1,5 @@
 
+import json
 import cv2
 import sys
 import pyzed.sl as sl
@@ -6,8 +7,27 @@ import time
 import numpy as np
 from oscpy.client import OSCClient
 
-address = "127.0.0.1"
-port = 8000
+
+
+# Default values
+default_address = "127.0.0.1"
+default_port = 8000
+
+# Load data from settings.json if present
+try:
+    with open('settings.json', 'r') as file:
+        settings = json.load(file)
+        address = settings.get('address', default_address)
+        port = settings.get('port', default_port)
+except FileNotFoundError:
+    # Use default values if settings.json is not found
+    address = default_address
+    port = default_port
+
+# Print the loaded values
+print("Address:", address)
+print("Port:", port)
+
 
 osc = OSCClient(address, port)
 
