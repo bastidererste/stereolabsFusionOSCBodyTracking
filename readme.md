@@ -33,6 +33,11 @@ $ git clone https://github.com/your-username/body-tracking-program.git
 - Ensure that the cameras are recognized by the system and their drivers are installed correctly.
 - Adjust camera settings such as resolution, frame rate, and exposure according to your requirements.
 
+## Calibration
+
+Use the ZED360 calibration tool provided by Stereolabs with their SDK: https://www.stereolabs.com/docs/fusion/zed360/
+
+
 ## Usage
 
 1. Launch the OSC receiver on the destination machine or software that will receive the tracking data.
