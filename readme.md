@@ -6,6 +6,8 @@ This program allows you to track multiple bodies across multiple Stereolabs ZED 
 
 - **Multi-camera Body Tracking:** The program can handle multiple Stereolabs ZED cameras simultaneously. Each camera captures the video feed and performs body tracking independently.
 
+- **Body fusion:** The program uses a fusion algorithm for time synchronization, geometric calibration, and 360° data fusion of all cameras and sensor sources overlapping bodies.
+
 - **COCO18 Skeleton Keypoints:** The program tracks the bodies using the COCO18 Skeleton model, which consists of 18 keypoint locations on the human body (e.g., nose, eyes, shoulders, elbows, wrists, etc.). It provides detailed information about the body pose.
 
 - **OSC Communication:** The program sends the tracked bodies and keypoints data to an OSC receiver. OSC is a widely used protocol for communication between multimedia applications. It allows you to transmit various types of data, including positional and movement information.
