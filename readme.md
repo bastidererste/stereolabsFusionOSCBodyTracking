@@ -1,4 +1,4 @@
-# Body Tracking Program with Stereolabs ZED Cameras and OSC Receiver
+# Body Tracking with multiple Stereolabs ZED Cameras and OSC output
 
 This program allows you to track multiple bodies across multiple Stereolabs ZED cameras and send the tracked bodies and keypoints in the COCO18 Skeleton format to an OSC (Open Sound Control) receiver. The program utilizes computer vision techniques and the ZED SDK to detect and track bodies, and then sends the tracking data over OSC for further processing or visualization.
 
