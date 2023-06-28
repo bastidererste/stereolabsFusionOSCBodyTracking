@@ -1,0 +1,48 @@
+{
+    "23116192": {
+        "input": {
+            "fusion": {
+                "type": "INTRA_PROCESS"
+            },
+            "zed": {
+                "configuration": "23116192",
+                "type": "USB_SERIAL"
+            }
+        },
+        "world": {
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "translation": [
+                0.0,
+                -1.049111008644104,
+                0.0
+            ]
+        }
+    },
+    "28244200": {
+        "input": {
+            "fusion": {
+                "type": "INTRA_PROCESS"
+            },
+            "zed": {
+                "configuration": "28244200",
+                "type": "USB_SERIAL"
+            }
+        },
+        "world": {
+            "rotation": [
+                -0.3485114574432373,
+                0.298469215631485,
+                -0.20130307972431183
+            ],
+            "translation": [
+                -1.283047080039978,
+                -2.294268846511841,
+                0.20122872292995453
+            ]
+        }
+    }
+}
