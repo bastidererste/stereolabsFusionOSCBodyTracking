@@ -15,6 +15,7 @@ This program allows you to track multiple bodies across multiple Stereolabs ZED 
 1. Clone the repository or download the program files to your local machine.
 
 
+git clone https://github.com/your-username/body-tracking-program.git
 
 
 
@@ -38,9 +39,8 @@ This program allows you to track multiple bodies across multiple Stereolabs ZED 
 
 3. Run the program:
 
-'''cli
-python body_tracking.py calibrationfile.json
-'''
+'python body_tracking.py calibrationfile.json'
+
 
 4. The program will initialize the ZED cameras and start capturing video feeds.
 
