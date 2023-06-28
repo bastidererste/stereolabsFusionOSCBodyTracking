@@ -47,7 +47,7 @@ Use the ZED360 calibration tool provided by Stereolabs with their SDK: https://w
 3. Run the program:
 
 ```
-$ python body_tracking.py calibrationfile.json
+$ python bodyTrackingOSC.py calibrationfile.json
 ```
 
 
