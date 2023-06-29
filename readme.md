@@ -61,6 +61,15 @@ $ python bodyTrackingOSC.py calibrationfile.json
 
 8. To stop the program, press `Ctrl + C` in the terminal or command prompt.
 
+
+## OSC message structure
+
+The OSC messages sent in the system follow a specific structure. There are two types of messages: /body/{id}/ and /keypoints/{id}/. The "body" message pertains to the body information and the "keypoints" message refers to the flattened COCO18 array containing the XYZ coordinates of each keypoint. The "id" parameter represents the unique identifier of the body to which the data belongs.
+
+The /body/{id}/ message contains the position (x, y, z) of the body, its velocity (xv, yv, zv), and its dimensions (xd, yd, zd) as floats.
+
+The /keypoints/{id}/ message contains the XYZ coordinates of each keypoint in the flattened COCO18 array format as floats.
+
 ## Configuration
 
 The program utilizes a configuration file (`config.json`) to specify various settings. You can modify this file to adjust the program behavior according to your requirements. Some configurable parameters include:
